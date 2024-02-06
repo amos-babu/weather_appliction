@@ -13,7 +13,7 @@ const Searchcity = ({ handleSubmit, city, handleInputChange }) => {
                 onChange={ handleInputChange }
             />
             <button 
-                className="btn btn-outline-secondary mx-3" 
+                className="btn btn-info mx-3" 
                 type="submit">Get Weather
             </button>
             </div>
