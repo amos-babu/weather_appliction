@@ -7,7 +7,7 @@ function App() {
     <>
     <div className='container'>
       <div className='row justify-content-center'>
-        <div className='col-sm-5 bg-info fill'>
+        <div className='col-sm-12 fill'>
           <h1 className='text-center mt-5'>Weather App</h1>
           <Weather/>
         </div>
