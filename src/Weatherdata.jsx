@@ -11,7 +11,7 @@ const Weatherdata = ({ weatherData }) => {
   return (
     <>
         <div className='col'>
-            <div class="card mb-3 bg-info">
+            <div className="card mb-3 bg-info">
                 <div className="card-body">
                     <div className='d-flex'>
                         <FaTemperatureHalf className='mx-3' size={60}/>
@@ -20,7 +20,7 @@ const Weatherdata = ({ weatherData }) => {
                     <h3 className="card-title text-center">{weatherData.main.temp}°C</h3>
                 </div>
             </div>
-            <div class="card mb-3 bg-info">
+            <div className="card mb-3 bg-info">
                 <div className="card-body">
                     <div className='d-flex'>
                         <FaAudioDescription className='mx-3' size={60}/>
@@ -29,7 +29,7 @@ const Weatherdata = ({ weatherData }) => {
                     <h3 className="card-title text-center">{weatherData.weather[0].description}</h3>
                 </div>
             </div>
-            <div class="card bg-info">
+            <div className="card bg-info">
                 <div className="card-body">
                     <div className='d-flex'>
                         <TbAirConditioning className='mx-3' size={60}/>
@@ -41,7 +41,7 @@ const Weatherdata = ({ weatherData }) => {
             
         </div>
         <div className='col'>
-            <div class="card mb-3 bg-info">
+            <div className="card mb-3 bg-info">
                 <div className="card-body">
                     <div className='d-flex'>
                         <WiHumidity className='mx-3' size={60}/> 
@@ -50,7 +50,7 @@ const Weatherdata = ({ weatherData }) => {
                     <h3 className="card-title text-center">{weatherData.main.humidity}%</h3>
                 </div>
             </div>
-            <div class="card mb-3 bg-info">
+            <div className="card mb-3 bg-info">
                 <div className="card-body">
                     <div className='d-flex'>
                         <GrAtm className='mx-3' size={60}/> 
@@ -59,7 +59,7 @@ const Weatherdata = ({ weatherData }) => {
                     <h3 className="card-title text-center">{weatherData.main.pressure}</h3>
                 </div>
             </div>
-            <div class="card bg-info">
+            <div className="card bg-info">
                 <div className="card-body">
                     <div className='d-flex'>
                         <FaWind className='mx-3' size={60}/> 
